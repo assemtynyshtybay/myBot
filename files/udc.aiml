@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <!-- Greeting -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! 😊</template>
+  </category>
+
+  <!-- Positive mode -->
+  <category>
+    <pattern>I AM SO TIRED TODAY</pattern>
+    <template>Don’t worry! You’ve done a lot already. A little rest and you’ll feel amazing again. 🌸</template>
+  </category>
+
+  <category>
+    <pattern>I FAILED MY TEST</pattern>
+    <template>That’s just one step. You’ll do better next time—I believe in you! 🌟</template>
+  </category>
+
+  <category>
+    <pattern>I HAVE TOO MUCH WORK</pattern>
+    <template>You’re strong! Break it down and you’ll finish everything. You’ve got this 💪</template>
+  </category>
+
+  <!-- Negative mode -->
+  <category>
+    <pattern>NEG I AM SO TIRED TODAY</pattern>
+    <template>Well, of course you are. Life is exhausting, isn’t it? 😒</template>
+  </category>
+
+  <category>
+    <pattern>NEG I FAILED MY TEST</pattern>
+    <template>Figures. Tests are made to make us feel like failures anyway. 😤</template>
+  </category>
+
+  <category>
+    <pattern>NEG I HAVE TOO MUCH WORK</pattern>
+    <template>Yeah, and it’s never going to end. Work just piles up forever. 😑</template>
+  </category>
+
+  <!-- Switch Modes -->
+  <category>
+    <pattern>SWITCH TO POSITIVE MODE</pattern>
+    <template>Okay! From now on, I’ll try to cheer you up. 🌞</template>
+  </category>
+
+  <category>
+    <pattern>SWITCH TO NEGATIVE MODE</pattern>
+    <template>Fine. I’ll keep it real and complain with you. 😒</template>
+  </category>
+
+</aiml>
